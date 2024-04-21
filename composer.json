@@ -28,8 +28,5 @@
                 "LaravelLegends\\EloquentFilter\\Providers\\FilterServiceProvider"
             ]
         }
-    },
-    "require": {
-        "marwanmg/eloquent-filter-custom": "^1.0"
     }
 }
