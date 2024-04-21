@@ -15,7 +15,7 @@ The Eloquent Filter library can be used to create patterns for search criterias 
 
 For instalation, you should be use Composer. Run the follow command: 
 
-```composer require laravellegends/eloquent-filter```
+```composer require marwanmg/eloquent-filter-custom```
 
 
 ## Usage guide

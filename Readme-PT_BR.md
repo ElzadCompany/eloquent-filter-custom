@@ -11,7 +11,7 @@ Essa biblioteca tem como finalidade facilitar e padronizar a utilização de fil
 
 Rode o comando 
 
-```composer require laravellegends/eloquent-filter```
+```composer require marwanmg/eloquent-filter-custom```
 
 ## Exemplos de uso:
 

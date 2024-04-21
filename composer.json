@@ -1,13 +1,13 @@
 {
-    "name": "laravellegends/eloquent-filter",
-    "description": "A simple Eloquent filter to make easy API filtering",
+    "name": "marwanmg/eloquent-filter-custom",
+    "description": "A simple Eloquent filter to make easy API filtering, with capability for searching with or operator",
     "keywords": ["laravel", "eloquent", "filter", "search"],
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Wallace Maxters",
-            "email": "wallacemaxters@gmail.com"
+            "name": "Marwan Algadi",
+            "email": "marwan.algadi1998@gmail.com"
         }
     ],
     "minimum-stability": "stable",
@@ -28,5 +28,8 @@
                 "LaravelLegends\\EloquentFilter\\Providers\\FilterServiceProvider"
             ]
         }
+    },
+    "require": {
+        "marwanmg/eloquent-filter-custom": "^1.0"
     }
 }

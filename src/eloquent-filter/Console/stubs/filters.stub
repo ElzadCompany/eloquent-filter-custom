@@ -9,7 +9,7 @@ class DummyClass extends ModelFilter
     /**
      * The rules of filter
      * 
-     * @see https://github.com/LaravelLegends/eloquent-filter#what-does-it-do
+     * @see https://github.com/LaravelLegends/eloquent-filter-custom#what-does-it-do
      * @return array
     */
     public function getFilterables(): array
