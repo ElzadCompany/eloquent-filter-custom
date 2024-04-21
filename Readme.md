@@ -1,3 +1,5 @@
+# Look at the end of file to see forked updates
+
 # Laravel Legends Eloquent Filter
 
 A useful library to make filters for Eloquent.
@@ -401,3 +403,29 @@ api.get('users', {
     }
 })
 ```
+
+# Forked Version Update
+
+Here are the new updates in this forjed version
+
+
+## contains or
+
+
+The url `api/users?contains[name,name_en]=tomato` sounds like a
+
+```php
+User::where('name', 'LIKE', '%value%')->orWhere('name_en', 'LIKE', '%value%');
+```
+and can add more colums
+
+url `api/users?contains[name,name_en,name_fr]=tomato` sounds like a
+
+```php
+User::where('name', 'LIKE', '%value%')->orWhere('name_en', 'LIKE', '%value%')->orWhere('name_fr', 'LIKE', '%value%');
+```
+----
+
+
+
+
